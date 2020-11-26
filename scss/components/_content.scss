@@ -1,0 +1,64 @@
+.content {
+  // height: calc(100vh - 7.5rem);
+}
+
+.coming-soon {
+  // 100vh - logo - hero - footer
+  height: calc(100vh - 7.5rem - 25rem - 2.1rem);
+  padding: 2rem;
+  text-align: center;
+  @include flexCenter;
+  flex-direction: column;
+}
+
+.heading {
+  font-size: 4rem;
+  color: $color-neutral-red-dark;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+
+  span {
+    display: block;
+
+    &:first-child {
+      color: $color-primary-red-light;
+      font-weight: 300;
+    }
+  }
+}
+
+.message {
+  color: $color-primary-red-light;
+  line-height: 1.4;
+  margin: 2.5rem auto;
+}
+
+.form {
+  // border: 1px solid;
+  width: 100%;
+  position: relative;
+
+  .email {
+    font-size: 1.6rem;
+    font-family: inherit;
+    padding: 1.5rem 2rem;
+    border: 1px solid rgba($color-primary-red-light, 0.5);
+    border-radius: 5rem;
+    outline: none;
+    width: 100%;
+
+    &::placeholder {
+      color: $color-primary-red-light;
+    }
+  }
+
+  .btn-submit {
+    background: $gradient-red;
+    padding: 1.3rem 2.5rem;
+    border-radius: 5rem;
+    border: none;
+    outline: none;
+    position: absolute;
+    right: 0;
+  }
+}

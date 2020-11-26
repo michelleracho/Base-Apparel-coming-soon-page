@@ -14,16 +14,17 @@ html {
 body {
   font-size: 1.6rem;
   font-family: "Josefin Sans", sans-serif;
+  background: linear-gradient(135deg, white, #fff5f5);
   min-height: 100vh;
   position: relative;
 }
 
 .container {
   max-width: 375px;
-  border: 1px solid;
 }
 
 .logo-container {
+  height: 7.5rem;
   padding: 2.5rem;
 }
 
@@ -46,5 +47,87 @@ footer .attribution {
 
 footer .attribution a {
   color: #3e52a3;
+}
+
+.coming-soon {
+  height: calc(100vh - 7.5rem - 25rem - 2.1rem);
+  padding: 2rem;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.heading {
+  font-size: 4rem;
+  color: #413a3a;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+}
+
+.heading span {
+  display: block;
+}
+
+.heading span:first-child {
+  color: #ce9797;
+  font-weight: 300;
+}
+
+.message {
+  color: #ce9797;
+  line-height: 1.4;
+  margin: 2.5rem auto;
+}
+
+.form {
+  width: 100%;
+  position: relative;
+}
+
+.form .email {
+  font-size: 1.6rem;
+  font-family: inherit;
+  padding: 1.5rem 2rem;
+  border: 1px solid rgba(206, 151, 151, 0.5);
+  border-radius: 5rem;
+  outline: none;
+  width: 100%;
+}
+
+.form .email::-webkit-input-placeholder {
+  color: #ce9797;
+}
+
+.form .email:-ms-input-placeholder {
+  color: #ce9797;
+}
+
+.form .email::-ms-input-placeholder {
+  color: #ce9797;
+}
+
+.form .email::placeholder {
+  color: #ce9797;
+}
+
+.form .btn-submit {
+  background: linear-gradient(135deg, #f8bfbf, #ee8c8c);
+  padding: 1.3rem 2.5rem;
+  border-radius: 5rem;
+  border: none;
+  outline: none;
+  position: absolute;
+  right: 0;
 }
 /*# sourceMappingURL=main.css.map */
