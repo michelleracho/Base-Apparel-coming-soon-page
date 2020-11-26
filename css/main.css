@@ -49,6 +49,22 @@ footer .attribution a {
   color: #3e52a3;
 }
 
+.heading {
+  font-size: 4rem;
+  color: #413a3a;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+}
+
+.heading span {
+  display: block;
+}
+
+.heading span:first-child {
+  color: #ce9797;
+  font-weight: 300;
+}
+
 .coming-soon {
   height: calc(100vh - 7.5rem - 25rem - 2.1rem);
   padding: 2rem;
@@ -68,34 +84,18 @@ footer .attribution a {
           flex-direction: column;
 }
 
-.heading {
-  font-size: 4rem;
-  color: #413a3a;
-  text-transform: uppercase;
-  letter-spacing: 1rem;
-}
-
-.heading span {
-  display: block;
-}
-
-.heading span:first-child {
-  color: #ce9797;
-  font-weight: 300;
-}
-
-.message {
+.coming-soon__message {
   color: #ce9797;
   line-height: 1.4;
   margin: 2.5rem auto;
 }
 
-.form {
+.coming-soon__form {
   width: 100%;
   position: relative;
 }
 
-.form .email {
+.coming-soon__form .email {
   font-size: 1.6rem;
   font-family: inherit;
   padding: 1.5rem 2rem;
@@ -105,23 +105,23 @@ footer .attribution a {
   width: 100%;
 }
 
-.form .email::-webkit-input-placeholder {
+.coming-soon__form .email::-webkit-input-placeholder {
   color: #ce9797;
 }
 
-.form .email:-ms-input-placeholder {
+.coming-soon__form .email:-ms-input-placeholder {
   color: #ce9797;
 }
 
-.form .email::-ms-input-placeholder {
+.coming-soon__form .email::-ms-input-placeholder {
   color: #ce9797;
 }
 
-.form .email::placeholder {
+.coming-soon__form .email::placeholder {
   color: #ce9797;
 }
 
-.form .btn-submit {
+.coming-soon__form .btn-submit {
   background: linear-gradient(135deg, #f8bfbf, #ee8c8c);
   padding: 1.3rem 2.5rem;
   border-radius: 5rem;

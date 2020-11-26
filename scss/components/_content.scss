@@ -2,15 +2,6 @@
   // height: calc(100vh - 7.5rem);
 }
 
-.coming-soon {
-  // 100vh - logo - hero - footer
-  height: calc(100vh - 7.5rem - 25rem - 2.1rem);
-  padding: 2rem;
-  text-align: center;
-  @include flexCenter;
-  flex-direction: column;
-}
-
 .heading {
   font-size: 4rem;
   color: $color-neutral-red-dark;
@@ -27,13 +18,22 @@
   }
 }
 
-.message {
+.coming-soon {
+  // 100vh - logo - hero - footer
+  height: calc(100vh - 7.5rem - 25rem - 2.1rem);
+  padding: 2rem;
+  text-align: center;
+  @include flexCenter;
+  flex-direction: column;
+}
+
+.coming-soon__message {
   color: $color-primary-red-light;
   line-height: 1.4;
   margin: 2.5rem auto;
 }
 
-.form {
+.coming-soon__form {
   // border: 1px solid;
   width: 100%;
   position: relative;
