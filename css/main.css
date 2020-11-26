@@ -95,7 +95,7 @@ footer .attribution a {
   position: relative;
 }
 
-.coming-soon__form .email {
+.email {
   font-size: 1.6rem;
   font-family: inherit;
   padding: 1.5rem 2rem;
@@ -105,29 +105,51 @@ footer .attribution a {
   width: 100%;
 }
 
-.coming-soon__form .email::-webkit-input-placeholder {
+.email::-webkit-input-placeholder {
   color: #ce9797;
 }
 
-.coming-soon__form .email:-ms-input-placeholder {
+.email:-ms-input-placeholder {
   color: #ce9797;
 }
 
-.coming-soon__form .email::-ms-input-placeholder {
+.email::-ms-input-placeholder {
   color: #ce9797;
 }
 
-.coming-soon__form .email::placeholder {
+.email::placeholder {
   color: #ce9797;
 }
 
-.coming-soon__form .btn-submit {
+.btn-submit {
   background: linear-gradient(135deg, #f8bfbf, #ee8c8c);
-  padding: 1.3rem 2.5rem;
+  padding: 1.3rem 3rem;
   border-radius: 5rem;
   border: none;
   outline: none;
   position: absolute;
   right: 0;
+  top: 0;
+}
+
+.error-msg {
+  color: #f96262;
+  text-align: left;
+  margin-top: 0.8rem;
+  margin-left: 2rem;
+}
+
+.error-input {
+  -webkit-box-shadow: inset 0 0 0 2px #f96262;
+          box-shadow: inset 0 0 0 2px #f96262;
+}
+
+.error-icon {
+  position: absolute;
+  top: 0;
+  right: 7.2rem;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+  padding-right: 1rem;
 }
 /*# sourceMappingURL=main.css.map */
