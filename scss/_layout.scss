@@ -1,8 +1,22 @@
-// footer
+.container {
+  max-width: 375px;
+  border: 1px solid;
+}
+
+.logo-container {
+  padding: 2.5rem;
+}
+
+.logo {
+  width: 10rem;
+  height: auto;
+}
+
 footer {
   position: absolute;
   bottom: 0;
   margin-bottom: 1rem;
+  width: 100%;
 
   .attribution {
     font-size: 11px;
