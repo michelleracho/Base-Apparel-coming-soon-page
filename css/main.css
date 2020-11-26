@@ -49,22 +49,6 @@ footer .attribution a {
   color: #3e52a3;
 }
 
-.heading {
-  font-size: 4rem;
-  color: #413a3a;
-  text-transform: uppercase;
-  letter-spacing: 1rem;
-}
-
-.heading span {
-  display: block;
-}
-
-.heading span:first-child {
-  color: #ce9797;
-  font-weight: 300;
-}
-
 .coming-soon {
   height: calc(100vh - 7.5rem - 25rem - 2.1rem);
   padding: 2rem;
@@ -82,6 +66,22 @@ footer .attribution a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.coming-soon__heading {
+  font-size: 4rem;
+  color: #413a3a;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+}
+
+.coming-soon__heading span {
+  display: block;
+}
+
+.coming-soon__heading span:first-child {
+  color: #ce9797;
+  font-weight: 300;
 }
 
 .coming-soon__message {
