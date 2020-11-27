@@ -3,3 +3,17 @@
   align-items: center;
   justify-content: center;
 }
+
+@mixin bp($breakpoint) {
+  @if $breakpoint == sm {
+    @media only screen and (min-width: $bp-sm) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == md {
+    @media only screen and (min-width: $bp-md) {
+      @content;
+    }
+  }
+}
