@@ -16,4 +16,10 @@
       @content;
     }
   }
+
+  @if $breakpoint == lg {
+    @media only screen and (min-width: $bp-lg) {
+      @content;
+    }
+  }
 }

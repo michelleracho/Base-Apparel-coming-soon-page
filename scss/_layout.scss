@@ -1,10 +1,14 @@
 .container {
-  // max-width: $bp-md;
 }
 
 .logo-container {
   height: 7.5rem;
   padding: 2.5rem;
+
+  @include bp(lg) {
+    padding-left: 0;
+    margin-left: 7.5rem;
+  }
 }
 
 .logo {
@@ -21,6 +25,11 @@ footer {
   .attribution {
     font-size: 11px;
     text-align: center;
+
+    @include bp(lg) {
+      text-align: left;
+      margin-left: 7rem;
+    }
 
     a {
       color: hsl(228, 45%, 44%);

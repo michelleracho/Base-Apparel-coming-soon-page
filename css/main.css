@@ -24,6 +24,13 @@ body {
   padding: 2.5rem;
 }
 
+@media only screen and (min-width: 992px) {
+  .logo-container {
+    padding-left: 0;
+    margin-left: 7.5rem;
+  }
+}
+
 .logo {
   width: 10rem;
   height: auto;
@@ -41,18 +48,57 @@ footer .attribution {
   text-align: center;
 }
 
+@media only screen and (min-width: 992px) {
+  footer .attribution {
+    text-align: left;
+    margin-left: 7rem;
+  }
+}
+
 footer .attribution a {
   color: #3e52a3;
+}
+
+@media only screen and (min-width: 992px) {
+  .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: -7.5rem;
+    margin-left: 7rem;
+  }
 }
 
 .hero {
   width: 100%;
 }
 
+@media only screen and (min-width: 992px) {
+  .hero {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    width: auto;
+  }
+}
+
 .hero img {
   width: 100%;
   height: auto;
   display: block;
+}
+
+@media only screen and (min-width: 992px) {
+  .hero img {
+    width: auto;
+    height: 100vh;
+  }
 }
 
 .coming-soon {
@@ -87,6 +133,27 @@ footer .attribution a {
     margin-top: unset;
     padding: 5rem 2rem;
     background: linear-gradient(135deg, white, #fff5f5);
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .coming-soon {
+    position: relative;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    text-align: left;
+    bottom: unset;
+    left: unset;
+    -webkit-transform: unset;
+            transform: unset;
+    max-width: 45rem;
+    margin-left: 0;
+    padding: unset;
+    background: unset;
   }
 }
 
