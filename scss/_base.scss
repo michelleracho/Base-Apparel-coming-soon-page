@@ -10,12 +10,16 @@ html {
 }
 
 body {
-  // border: 1px solid;
   font-size: 1.6rem;
   font-family: $font-default;
   background: $gradient-white;
   min-height: 100vh;
-  // width: 100vw;
-  // overflow: hidden;
   position: relative;
+
+  @include bp(lg) {
+    background: url(/images/bg-pattern-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
