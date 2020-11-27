@@ -17,9 +17,9 @@ body {
   position: relative;
 
   @include bp(lg) {
-    background: url(/images/bg-pattern-desktop.svg);
+    background: url(/images/bg-pattern-desktop.svg), $gradient-white;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left;
   }
 }

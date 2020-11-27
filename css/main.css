@@ -21,10 +21,10 @@ body {
 
 @media only screen and (min-width: 992px) {
   body {
-    background: url(/images/bg-pattern-desktop.svg);
+    background: url(/images/bg-pattern-desktop.svg), linear-gradient(135deg, white, #fff5f5);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left;
   }
 }
 
